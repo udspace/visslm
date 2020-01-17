@@ -117,7 +117,7 @@ URI
 | files | HttpFileCollectionBase | 否 | 客户端上载文件集合,创建文件是必传 | 
 | rootCode | string | 否 | 上传文件夹code，当文件夹分批次上传时，第一次上传空字符串，剩下的次数必须传递第一次上传成功返回的文件夹code（RootCode） |
 | fileBlock | string | 否 | 文件区块，project-项目（默认），personal-个人，site-站点，other-其他 |
-| fileOtherInfo | string | 否 | 文件/文件夹上传重复处理信息 |
+| fileOtherInfo | string | 否 | 文件/文件夹上传重复处理信息（暂时无效） |
 | fileTreeStr | string | 否 | 文件树，如果分批次上传，每一次上传结束返回有FileTree信息，则需要在之后的接口传递该信息 |
 | bigUpload | bool | 否 | 是否为超大文件上传 |
 | bigUploadEnd | bool | 否 | 是否超大文件上传结束 |
