@@ -1,4 +1,4 @@
-#WebServices接口说明文档 0.2
+#WebServices接口说明文档 V1
 
 
 此接口为VISSLM提供, 接口实现形式为 WebService，使用SOAP标准消息协议通讯，用WSDL文件进行说明，并通过UDDI进行注册
@@ -8,14 +8,13 @@
 WebService地址
 
     http://location:port/almws/VALMService.svc
- 建议：使用Java语言开发可以调用该接口地址的rest方式访问，获取数据比WebService访问更便捷。
 
 ##通用参数
 
 所有接口的通用参数
 
 
-1. LoginUser：用户信息
+ LoginUser：用户信息
 
 | 参数 | 说明 |
 | --- | :--- |
