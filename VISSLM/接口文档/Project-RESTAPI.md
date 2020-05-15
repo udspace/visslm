@@ -36,12 +36,12 @@ Content
 		[
 			{
 			"RoleName":"项目成员",
-			"UserList":"user,chenyun"
+			"UserList":"user,PM"
 			}
 		],
 		" Property":
 		{
-			"_valm_Name":"测试项目",
+			"_valm_Name":"测试项目添加",
 			"Key":"dltysof.ds1"
 		},
 		"InsertAfterId":"-1",
