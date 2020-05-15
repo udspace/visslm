@@ -28,6 +28,26 @@ URI
 | Project_Template |  项目模板(模板项目ID) |
 | UToken |  * (是参数不是post值)用户Token |
 
+Content
+
+{
+	"ParentId":"1",
+	"RoleData":
+	[
+		{
+		"RoleName":"项目成员",
+		"UserList":"user,chenyun"
+		}
+	],
+	" Property":
+	{
+		"_valm_Name":"测试项目",
+		"Key":"dltysof.ds1"
+	},
+	"InsertAfterId":"-1",
+	"ProjectTemplate":"0"
+	
+}
 
 返回值
 
