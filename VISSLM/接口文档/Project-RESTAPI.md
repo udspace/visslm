@@ -1,4 +1,4 @@
-#项目添加RestAPI接口说明
+# 项目添加RestAPI接口说明
 
 
 此接口为VISSLM提供, 接口实现形式为 HTTP Restful
@@ -30,24 +30,24 @@ URI
 
 Content
 
-{
-	"ParentId":"1",
-	"RoleData":
-	[
-		{
-		"RoleName":"项目成员",
-		"UserList":"user,chenyun"
-		}
-	],
-	" Property":
 	{
-		"_valm_Name":"测试项目",
-		"Key":"dltysof.ds1"
-	},
-	"InsertAfterId":"-1",
-	"ProjectTemplate":"0"
-	
-}
+		"ParentId":"1",
+		"RoleData":
+		[
+			{
+			"RoleName":"项目成员",
+			"UserList":"user,chenyun"
+			}
+		],
+		" Property":
+		{
+			"_valm_Name":"测试项目",
+			"Key":"dltysof.ds1"
+		},
+		"InsertAfterId":"-1",
+		"ProjectTemplate":"0"
+
+	}
 
 返回值
 
