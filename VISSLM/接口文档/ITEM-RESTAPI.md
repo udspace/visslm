@@ -1,4 +1,4 @@
-# 数据对象管理RestAPI接口说明 0.3.1
+# 数据对象管理RestAPI接口说明 0.3.2
 
 
 此接口为VISSLM提供, 接口实现形式为 HTTP Restful
@@ -16,8 +16,9 @@ URI格式说明
 | 参数 | 说明 |
 | --- | :-- |
 | user | 用户登录名 |
-| ApiToken | 用户的API令牌 |
-
+| apiToken | 用户的API令牌 |
+| xutoken | 长效用户令牌 |
+| utoken | 短期用户令牌 |
 
 ## 数据查询
 ---------
