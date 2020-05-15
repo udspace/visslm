@@ -10,7 +10,7 @@ URI格式说明
 	http://location:port/path?param=value#flag
 
 
-##添加项目信息
+## 添加项目信息
 ---------
 
 
@@ -19,7 +19,7 @@ URI
 		http://<server>/alm/rest/Project/AddProject
 **方法:POST**
 
-|参数 | 说明 |
+|消息体 | 说明 |
 | --- | :-- |
 | ParentId | （默认1）父节点ID(指定添加到父节点的子数据) |
 | RoleData |  角色(角色名称)和用户数据对象数据 |
