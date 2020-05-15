@@ -26,7 +26,6 @@ URI
 | Property |  *项目字段数据(对应project类型的字段信息,注意字段的合法性) |
 | InsertAfterId |  添加数据的位置(默认-1表示最后) |
 | Project_Template |  项目模板(模板项目ID) |
-| UToken |  * (是参数不是post值)用户Token |
 
 Content
 
