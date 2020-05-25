@@ -178,3 +178,58 @@ AppToken：应用许可
 			"ErrorMsg":"描述..."
 		}  ErrorCode返回0表示添加成功，返回1表示返回失败
 
+
+***
+
+##查询所有用户信息
+----------
+
+查询VISSLM中所有的用户
+
+URI
+
+		http://<server>/alm/rest/user/management/AllUsers?pageSize={pageSize}&pageIndex={pageIndex}&searchWords={searchWords}
+
+**方法:GET**
+
+AppName：应用名称
+AppToken：应用许可 
+
+
+| pageSize (可选)| 每页显示的数量|
+| pageIndex (可选)|当前页码 |
+| searchWords (可选) |模糊查询字符|
+
+返回值
+
+			{
+			"ErrorCode":0,
+			"ErrorMsg":"成功",
+			"Data":[
+						{
+							"Uid": 5,
+							"Name": "user",
+							"NickName": "演示用户",
+							"Phone": "12345678910",
+							"Address": "",
+							"Mailbox": "user@email.com",
+							"Sex": "1 ",
+							"LastModifyDate": "2020-04-17T11:00:32.75",
+							"CreateBy": "",
+							"CreateDate": "2016-03-31T15:23:20.647",
+							"Sort": 0,
+							"IDType": "",
+							"IDNumber": "",
+							"Autograph": "/DataFiles/Personal/UserAutograph/UserCustom/7a00fafed1d340da80d3eba9513bf3a5.png",
+							"AttributeExtension": null,
+							"SecretType": null,
+							"PermitType": 0,
+							"PermitExtension1": null,
+							"PermitExtension2": null,
+							"PermitExtension3": null,
+							"DomainAccount": null
+						},
+						{}
+					]
+		}
+
